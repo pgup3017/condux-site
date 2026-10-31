@@ -6,6 +6,8 @@ title: Condux 지원
 
 Condux 는 여러 AI를 한 곳에서 쓰기 위한 Mac 작업실입니다. 사용자 본인의 API 키로 Anthropic Claude(1.0)와 OpenAI GPT(1.1)를 호출하고, 대화마다 작업 예산을 두어 비용을 관리합니다.
 
+- [사용 가이드](guide.html) — 처음 설정부터 릴레이·MCP 까지 순서대로
+
 ## 자주 묻는 질문
 
 **API 키는 어디서 만드나요?** Claude 는 https://platform.claude.com, OpenAI 는 https://platform.openai.com 에서 계정을 만들고 API Keys 메뉴에서 발급합니다. 키는 앱 설정의 해당 칸에 붙여 넣고 ‘저장’을 누릅니다.
