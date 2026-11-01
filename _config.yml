@@ -1,7 +1,7 @@
 title: Condux
 lang: ko
 theme: minima
-description: 여러 AI와 함께하는 Mac 작업실, Condux의 사용 가이드와 지원 안내입니다.
+description: Claude, GPT, Codex를 한 화면에서 부리는 Mac 앱. 키와 로그인은 내 Mac에 그대로 둡니다.와 지원 안내입니다.
 defaults:
   - scope:
       path: ""

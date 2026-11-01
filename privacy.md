@@ -20,6 +20,8 @@ Condux 는 자체 서버가 없습니다. 앱은 사용자의 정보를 개발�
 
 사용자가 메시지를 보내면 그 내용은 사용자가 고른 서비스의 API(api.anthropic.com 또는 api.openai.com)로 HTTPS 로 전송됩니다. 이때 적용되는 약관과 개인정보 정책은 각 서비스의 것입니다.
 
+웹 검색을 켜 두면(기본값) AI 가 필요할 때 검색어를 만들어 웹을 검색하고, 대화에 나온 링크의 페이지를 읽습니다. 이 동작은 앱이 아니라 사용자가 고른 AI 서비스의 서버에서 이루어지며, 해당 웹사이트에 요청 정보가 남을 수 있습니다. 연결 관리 ▸ 일반 ▸ 웹 검색에서 끌 수 있습니다.
+
 - Anthropic 개인정보 정책: https://www.anthropic.com/legal/privacy
 - Anthropic 이용 약관: https://www.anthropic.com/legal/consumer-terms
 - OpenAI 개인정보 정책: https://openai.com/policies/privacy-policy
