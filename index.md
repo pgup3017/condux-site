@@ -5,11 +5,12 @@ home: true
 
 <section class="hero">
 <div class="container hero-text">
-<p class="eyebrow">macOS 14 이상 · 오픈소스</p>
+<p class="eyebrow">macOS 14 이상 · Apple Silicon · 오픈소스</p>
 <h1>여러 AI를 한 화면에서<br>부리는 Mac 작업실</h1>
 <p class="lead">Claude, GPT, Codex에게 일을 맡기고, 서로 검토시키고, 결과는 내가 승인합니다. 키와 로그인은 내 Mac에 그대로 둡니다.</p>
 <div class="actions">
-<a class="button primary" href="https://github.com/pgup3017/condux-app">GitHub에서 받기</a>
+<a class="button primary" href="https://github.com/pgup3017/condux-app/releases/latest">Mac용 내려받기</a>
+<a class="button" href="https://github.com/pgup3017/condux-app">GitHub</a>
 <a class="button" href="{{ '/guide.html' | relative_url }}">사용 가이드</a>
 </div>
 </div>
@@ -86,7 +87,7 @@ home: true
 <tr><th scope="row">Chrome · 다른 프로그램 제어</th><td>있음</td><td>없음</td></tr>
 <tr><th scope="row">Figma · Mobbin · Xcode 도구</th><td>있음</td><td>없음</td></tr>
 <tr><th scope="row">로컬 AI (시험 기능)</th><td>Apple Silicon</td><td>없음</td></tr>
-<tr><th scope="row">설치</th><td>소스에서 빌드</td><td>Mac App Store</td></tr>
+<tr><th scope="row">설치</th><td>내려받기 또는 소스 빌드</td><td>Mac App Store</td></tr>
 </tbody>
 </table>
 </div>
@@ -95,7 +96,8 @@ home: true
 
 <section id="start" class="container section">
 <h2>GitHub판 설치</h2>
-<p>Xcode가 필요합니다. 터미널에서 아래 명령을 실행합니다.</p>
+<p><a href="https://github.com/pgup3017/condux-app/releases/latest">최신 버전</a>을 받아 압축을 풀고 <code>Condux.app</code>을 응용 프로그램 폴더로 옮기면 됩니다. Apple 공증을 받은 파일입니다.</p>
+<p>소스에서 직접 빌드하려면 Xcode를 설치하고 아래 명령을 실행합니다.</p>
 <pre><code>git clone https://github.com/pgup3017/condux-app.git
 cd condux-app
 scripts/build-local.sh</code></pre>
